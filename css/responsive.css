@@ -1,0 +1,329 @@
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  :root {
+    --spacing-sm: 12px;
+    --spacing-md: 20px;
+    --spacing-lg: 20px;
+  }
+  .title-large {
+    font-size: 5rem;
+  }
+  .title-medium {
+    font-size: 3rem;
+  }
+  .title-small {
+    font-size: 2.5rem;
+  }
+  .label-large {
+    font-size: 2rem;
+  }
+  .label-small {
+    font-size: 1rem;
+  }
+  .body-medium-regular {
+    font-size: 1rem;
+  }
+  .body-medium-medium {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 80px var(--spacing-lg);
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  /* Start Our-Story Section */
+  #our-story {
+    grid-template-columns: auto;
+  }
+
+  #our-story h2 {
+    max-width: 150px;
+    margin: unset;
+    text-align: left;
+  }
+
+  #our-story img {
+    grid-column: 1 / span 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  #our-story p {
+    grid-row: 3;
+    grid-column: 1;
+    text-align: right;
+  }
+  /* End Our-Story Section */
+
+  /* Start Luxet Treats Section */
+  #luxet-treats {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #luxet-treats .cell:nth-of-type(1) {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  #luxet-treats .cell:nth-of-type(2) {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  #luxet-treats .cell:nth-of-type(3) {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+  }
+
+  #luxet-treats .cell img {
+    height: 410px;
+  }
+  /* End Luxet Treats Section */
+
+  /* Start Mindfulness Marquee */
+  #mindfulness-marquee .marquee-content svg {
+    width: 20px;
+  }
+  /* End Mindfulness Marquee */
+
+  /* Start Our-Story Section */
+  #sisterhood {
+    grid-template-columns: auto;
+  }
+
+  #sisterhood h2 {
+    grid-row: 1;
+    grid-column: 1;
+    max-width: 300px;
+    margin-left: auto;
+    text-align: right;
+  }
+
+  #sisterhood img {
+    grid-row: 2;
+    grid-column: 1 / span 1;
+  }
+
+  #sisterhood p {
+    grid-row: 3;
+    grid-column: 1;
+    text-align: left;
+  }
+  /* End Our-Story Section */
+
+  /* Start Stories Section */
+  #stories {
+    display: block;
+  }
+
+  #stories > *:not(:last-child) {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  #stories h2 {
+    max-width: 150px;
+  }
+
+  #stories .review .rating img {
+    height: 24px;
+  }
+
+  #stories button {
+    grid-column: unset;
+  }
+  /* End Stories Section */
+
+  /* Start Faqs Section */
+  #faqs h2 {
+    max-width: 200px;
+  }
+
+  #faqs .faq-item::after {
+    display: none;
+  }
+  /* End Faqs Section */
+
+  /* Start Message Section */
+  #message svg {
+    width: 80px;
+  }
+  /* End Message Section */
+
+  /* Start Footer */
+  footer {
+    display: block;
+  }
+
+  footer nav {
+    display: grid;
+    place-items: center;
+  }
+
+  footer p {
+    margin: auto;
+    text-align: center;
+    margin-top: var(--spacing-lg);
+  }
+  /* End Footer */
+
+  /* Start Belleza Marquee */
+  #belleza-marquee .marquee-content svg {
+    height: 20px;
+  }
+  /* End Belleza Marquee */
+}
+
+/* For screens between 768px and 1440px */
+@media (min-width: 768px) and (max-width: 1440px) {
+  :root {
+    --spacing-sm: 15px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+  }
+
+  .title-large {
+    font-size: 6rem;
+  }
+  .title-medium {
+    font-size: 4rem;
+  }
+  .title-small {
+    font-size: 3rem;
+  }
+  .label-large {
+    font-size: 2.5rem;
+  }
+  .label-small {
+    font-size: 1.25rem;
+  }
+  .body-medium-regular {
+    font-size: 1.25rem;
+  }
+  .body-medium-medium {
+    font-size: 1.25rem;
+  }
+
+  .container {
+    padding: 104px var(--spacing-lg);
+  }
+
+  .logo {
+    height: 48px;
+  }
+
+  /* Start Our-Story Section */
+  #our-story {
+    grid-template-columns: auto;
+  }
+
+  #our-story h2 {
+    max-width: 150px;
+    margin: unset;
+    text-align: left;
+  }
+
+  #our-story img {
+    grid-column: 1 / span 1;
+    height: 500px;
+  }
+
+  #our-story p {
+    grid-row: 3;
+    grid-column: 1;
+    text-align: right;
+  }
+
+  /* End Our-Story Section */
+
+  /* Start Luxet Treats Section */
+  #luxet-treats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #luxet-treats .cell:nth-of-type(1) {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  #luxet-treats .cell:nth-of-type(2) {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  #luxet-treats .cell:nth-of-type(3) {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
+
+  #luxet-treats .cell img {
+    height: 500px;
+  }
+  /* End Luxet Treats Section */
+
+  /* Start Mindfulness Marquee */
+  #mindfulness-marquee .marquee-content svg {
+    width: 30px;
+  }
+  /* End Mindfulness Marquee */
+
+  /* Start Sisterhood Section */
+  #sisterhood {
+    grid-template-columns: auto;
+  }
+
+  #sisterhood h2 {
+    max-width: 230px;
+    margin-left: auto;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: right;
+  }
+
+  #sisterhood img {
+    grid-row: 2;
+    grid-column: 1 / span 1;
+    width: 100%;
+    height: 500px;
+  }
+
+  #sisterhood p {
+    grid-row: 3;
+    grid-column: 1;
+    text-align: left;
+  }
+  /* End Sisterhood Section */
+
+  /* Start Stories Section */
+  #stories {
+    display: block;
+  }
+
+  #stories > *:not(:last-child) {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  #stories h2 {
+    max-width: 150px;
+  }
+
+  #stories button {
+    grid-column: unset;
+  }
+  /* End Stories Section */
+
+  /* Start Message Section */
+  #message svg {
+    width: 100px;
+  }
+  /* End Message Section */
+
+  /* Start Belleza Marquee */
+  #belleza-marquee .marquee-content svg {
+    height: 30px;
+  }
+  /* End Belleza Marquee */
+}
