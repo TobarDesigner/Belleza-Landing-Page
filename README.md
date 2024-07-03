@@ -2,7 +2,7 @@
 
 Belleza is a women's wellness center that provides a variety of services, including skincare therapies and wellness workshops. This project aims to create a landing page that effectively introduces Belleza to potential clients. The design is crafted to be feminine, modern, and minimalistic, perfectly capturing the brand's essence and appeal.
 
-Check out the [live demo](#) of the landing page.
+Check out the [live demo](https://bellezacenter.netlify.app/) of the landing page.
 
 ## Highlights
 
