@@ -18,5 +18,5 @@ This project is free to use for any purpose. No permission required, credit is a
 
 ## More
 
-[Design source on Figma](#) \
-[Presentation on Behance](#)
+[Design source on Figma](#https://www.figma.com/community/file/1388699686801534346/belleza-modern-minimalist-landing-page) \
+[Presentation on Behance](#https://www.behance.net/gallery/202393621/Belleza-Logo-Website)
